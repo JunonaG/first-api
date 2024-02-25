@@ -54,5 +54,5 @@ app.get("/posts/:postId", async (request, response) => {
 const PORT = 3000;
 
 app.listen(PORT, () => {
-  console.log("hey im connected");
+  console.log("Hey im connected");
 });
